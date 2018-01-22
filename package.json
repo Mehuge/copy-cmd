@@ -1,0 +1,16 @@
+{
+  "name": "copy-cmd",
+  "version": "1.0.0",
+  "description": "copy files to destination folder",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehuge <mehuge@sorcerer.co.uk>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "bin": {
+    "copy": "./copy.js"
+  }
+}
